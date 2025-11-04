@@ -1,0 +1,13 @@
+# ===========================================
+# 📦 Requirements for Google Colab Environment
+# Project: Global Commodity Price Analysis
+# ===========================================
+
+pandas
+numpy
+matplotlib
+seaborn
+
+# For running notebooks outside Colab
+jupyter
+notebook
