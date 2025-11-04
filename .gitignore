@@ -1,0 +1,45 @@
+# ===========================================
+# 🚫 GITIGNORE for Google Colab Python Project
+# Project: Global Commodity Price Analysis
+# ===========================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter / Colab checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Virtual environments (not used in Colab but safe to ignore)
+.env/
+.venv/
+env/
+venv/
+
+# Dataset and outputs
+# (⚠️ Comment out *.zip if you want to include your dataset in the repo)
+# *.zip
+*.csv
+*.xlsx
+*.json
+*.parquet
+*.h5
+*.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# System / IDE specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Google Colab specific temporary files
+*.ipynb_upload*
+*.ipynb_save*
